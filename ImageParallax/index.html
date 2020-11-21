@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Parallax Effect</title>
+        <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    </head>
+    <body>
+        <div class = 'image-container'>
+            <div class = 'image-container-inside'>
+                <h1>This is demo text to understand what is happening</h1>
+            </div>
+
+        </div>
+        <div class = 'spacer for scrolling'></div>
+    </body>
+    <script>
+        let imageDiv = document.querySelector('.image-container');
+
+        window.addEventListener('scroll', e => {
+            console.log(imageDiv.style)
+        })
+    </script>
+</html>
